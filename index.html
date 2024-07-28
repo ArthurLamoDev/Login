@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form>
+
+            <h3>login</h3>
+            <input type="text" placeholder="nome" id="nome">
+            <input type="text" placeholder="senha" id="senha">
+            <input type="submit" onclick="logar()">
+            <a href="registro.html"><input type="button" value="nao tenho conta"></a>
+
+        </form>
+        <script>
+
+            function logar(){
+
+                var login = document.getElementById('nome')
+                var senha = document.getElementById('senha')
+
+                if( login == "adimim" && senha == adimim)
+                    alert('sucesso');
+                else {
+                    alert('usuario ou senha errado')
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>
